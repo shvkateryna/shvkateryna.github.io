@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import axios from 'axios';
 import { useNavigate } from "react-router-dom";
 import "../styles/Curator.css"
-import { useAuth } from "../contexts/AuthContexts"
+import { useAuth } from "./AuthContexts"
 import NavBar from './NavBar';
 const Rooms = (props) => {
   const refresh = () => window.location.reload(true)
