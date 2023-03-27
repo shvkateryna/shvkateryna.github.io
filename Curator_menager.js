@@ -7,7 +7,7 @@ import Select from 'react-select'
 import { MultiSelect } from "react-multi-select-component"
 import '../styles/Manager.css'
 import '../styles/Main.css'
-import Map from "../components/Map"
+import Map from "./Map"
 import NavBar from './NavBar';
 
 const Curator_menager = () => {
