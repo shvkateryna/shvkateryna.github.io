@@ -12,7 +12,7 @@ import Main_Page from './Main';
 import Main_Form from "./Main_Form"
 import About from "./About"
 import Rules from "./Rules"
-import { useAuth } from "../contexts/AuthContexts"
+import { useAuth } from "./AuthContexts"
 import Rooms from './Rooms';
 import Curator_menager from './Curator_menager';
 // class App extends Component {
