@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import logo from './collegium.png'
 import { Container } from "react-bootstrap";
 
-import Map from "../components/Map"
+import Map from "./Map"
 import NavBar from "./NavBar";
 function Main_Page() {
     return (
