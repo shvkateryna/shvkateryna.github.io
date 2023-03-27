@@ -1,0 +1,75 @@
+body{
+    overflow-x: hidden;
+    max-width: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+body > .container {
+    padding: 60px 15px 100px;
+    
+}
+.main{
+    background-color: #c8b8ad;
+}
+.header{
+    align-content: center;
+    align-self: center;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 'logo group';
+    gap: 10px;
+    align-items: center;
+    height: 80px;
+    justify-content: space-between;
+    background-color: #FAECE1;
+}
+.logo{
+    grid-area: "logo";
+    color: #542400;
+    margin: 30px;
+    font-size: 20px;
+    padding: 15px 10px 20px 7px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.button_group{
+    grid-area: "group";
+    display: grid;
+    grid-template-areas: 'button1 button2 button3';
+    margin-right: 30px;
+}
+.header_button-home{
+    font-size: 12px;
+    border: none;
+    background-color: #542400;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 15px 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin: 15px;
+}
+.main-text{
+    color: #542400;
+    margin: 30px;
+    font-size: 175%;
+    padding: 15px 10px 20px 7px;
+    text-align: center;
+}
+.rooms{
+    font-size: 125%;
+    padding: 0px 10px 20px 7px;
+}
+.header_button-room{
+    grid-area: "button419";
+    font-size: 18px;
+    border: double #542400;
+    padding: 0px 10px 20px 7px;
+    background-color: #FAECE1;
+    color: #542400;
+    border-radius: 15px;
+    padding: 15px 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin: 15px;
+}
