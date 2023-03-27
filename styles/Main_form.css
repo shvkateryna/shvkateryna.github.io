@@ -1,0 +1,45 @@
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #542400; /* Blue */
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    animation: spin 2s linear infinite;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin: -70px 0 0 -70px;
+  }
+.loader_block{
+    position: relative;
+    height: 400px;
+}   
+.loader_block p{
+    text-align: center;
+    font-size: larger;
+}
+.notions{
+  text-align: center;
+  color: #542400;
+  font-size: larger;
+}
+.reg_text_div{
+  padding: 20px 0 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #542400;
+  font-size: 30px;
+  font-weight: 700;
+  background-color: #FAECE1;
+  padding: 10px 0 10px;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #FAECE1;
+  text-align:  center;
+  color:#542400 ;
+
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
